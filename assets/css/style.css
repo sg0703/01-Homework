@@ -31,6 +31,10 @@ header {
     color: #ffffff;
 }
 
+header span {
+    color: #d9dcd6;
+}
+
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -66,13 +70,13 @@ header div ul li {
 }
 
 /* Consolidated CSS to define attributes for all sections inside content */
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;    
 }
 
-.content section {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -81,7 +85,7 @@ header div ul li {
     color: #ffffff;
 }
 
-.content img {
+main img {
     max-height: 200px;
 }
 
