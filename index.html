@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon - SEO and more</title> <!--Updated title-->
 </head>
+
+<!-- Implemented semantic HTML, tried to use fewer DIV's -->
 <body>
     <header><!--Changed div to header tag, used inline CSS for simplicity-->
         <h1>Hori<span>seo</span>n</h1>
@@ -24,10 +26,8 @@
         </div>
     </header>
 
-    <div class="hero">
-        <!-- Added alt text to all images -->
-        <img height=800px width="100%" src="assets/images/digital-marketing-meeting.jpg" alt="People having a meeting in a super modern awesome office" />
-    </div>
+    <!-- Use CSS to show background image -->
+    <div class="hero" title="People having a meeting in a super modern awesome office"></div>
     
     <!--Changed div to main, changed divs inside content to sections, consolidated CSS to define attributes for all sections inside content-->
     <main>
@@ -54,8 +54,8 @@
         </section>
     </main>
 
-    <!--Changed divs inside benefits to sections, consolidated CSS to define attributes for all sections inside benefits-->
-    <div class="benefits">
+    <!--Changed to aside and divs inside benefits to sections, consolidated CSS to define attributes for all sections inside benefits-->
+    <aside>
         <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="Money symbol" />
@@ -77,7 +77,7 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </section>
-    </div>
+    </aside>
 
     <!-- Changed div to footer tag, and made h tag sequential -->
     <footer>
