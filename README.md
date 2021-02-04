@@ -28,13 +28,14 @@ THEN I find a concise, descriptive title
 ## Actions
 
 In order to satisfy the acceptance criteria, I did the following: 
-    1. Turned most of the <div>s into semantic HTML (main, aside, footer)
-    2. Re-organized style.css so that it aligned with the order in which HTML elements appeared in index.html
-    3. Condensed the CSS so that the elements within main, aside, etc. had the same properties without using redundant code
-    4. Added ALT attributes to images
-    5. Made <h> tags sequential 
-    6. Modified <title>
-    7. I utilized the command line tools with Github to upload my project and make it live
+
+1. Turned most of the <div>s into semantic HTML (main, aside, footer)
+2. Re-organized style.css so that it aligned with the order in which HTML elements appeared in index.html
+3. Condensed the CSS so that the elements within main, aside, etc. had the same properties without using redundant code
+4. Added ALT attributes to images
+5. Made <h> tags sequential 
+6. Modified <title>
+7. I utilized the command line tools with Github to upload my project and make it live
 
 ## URL
 
